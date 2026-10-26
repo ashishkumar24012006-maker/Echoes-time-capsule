@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Link, NavLink, Route, Routes, useNavigate } from 'react-router-dom';
-import { ArrowRight, CalendarClock, Check, ChevronRight, Clock3, Compass, LockKeyhole, LogOut, Menu, Orbit, Plus, Search, Sparkles, X } from 'lucide-react';
+import { ArrowRight, CalendarClock, Check, ChevronRight, Clock3, Compass, Image, Link2, LockKeyhole, LogOut, Menu, Music2, Orbit, Plus, Search, Sparkles, Trash2, Video, X } from 'lucide-react';
 import axios from 'axios';
 import './styles.css';
 
