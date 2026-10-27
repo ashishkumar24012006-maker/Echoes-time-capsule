@@ -15,7 +15,7 @@ const capsuleSchema = new mongoose.Schema({
   recipientId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null },
   title: { type: String, required: true, trim: true, maxlength: 140 },
   message: { type: String, required: true, maxlength: 10000 },
-  media: [{ url: String, type: String, name: String }],
+  media: [{ url: String, type: String, name: String, content: String }],
   mood: { type: String, enum: ['wonder', 'hope', 'love', 'courage', 'nostalgia', 'joy'], default: 'wonder' },
   tags: [{ type: String, lowercase: true, trim: true, maxlength: 32 }],
   visibility: { type: String, enum: ['private', 'public', 'recipient'], default: 'private' },
