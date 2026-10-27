@@ -3,9 +3,27 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": { "dev": "node --watch src/server.js", "start": "node src/server.js", "test": "node --test" },
-  "dependencies": {
-    "argon2": "^0.41.1", "cookie-parser": "^1.4.7", "cors": "^2.8.5", "dotenv": "^16.4.7", "express": "^4.21.2", "express-rate-limit": "^7.5.0", "helmet": "^8.0.0", "jose": "^6.0.10", "mongoose": "^8.9.5", "morgan": "^1.10.0", "zod": "^3.24.1"
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
   },
-  "devDependencies": { "supertest": "^7.0.0" }
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "cloudinary": "^2.11.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jose": "^6.0.10",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "multer": "^2.5.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
 }
